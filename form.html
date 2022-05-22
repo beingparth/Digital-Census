@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="hero.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- -------------------- NAV-MENU -------------------- -->
+    <div class="nav sticky">
+        <div class="nav__logo"><img src="./Census (1).png"></div>
+        <div class="nav__menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Volunteer</a></li>
+                <li><a href="">Explore</a></li>
+                <li><a href="./faq.html">FAQs</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li class="signup-btn"><a href="">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- -------------------- FORM -------------------- -->
+    <div class="form__section">
+        <div class="form__container">
+            <form id="info__form">
+                <div id="member__form">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="number" placeholder="Aadhar Number">
+                    <select>
+                        <option value="Male">M</option>
+                        <option value="Female">F</option>
+                        <option value="Other">Other</option>
+                    </select>                
+                    <br />
+                </div>
+                <button type="button" id="plusone__btn">Add another person</button>
+                <div>
+                    <input type="number" placeholder="Annual Family Income">
+                    <input type="number" placeholder="Number of family members">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
